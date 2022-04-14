@@ -1,7 +1,7 @@
 import * as authActions from "./auth-actions";
 import axios from "axios";
 
-axios.defaults.baseURL = "https://authappbackend.herokuapp.com/app";
+axios.defaults.baseURL = "https://auth-app-bd.herokuapp.com//app";
 
 const signUp = data => async dispatch => {
   dispatch(authActions.signUpUserRequest());
