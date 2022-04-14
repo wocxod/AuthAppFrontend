@@ -1,7 +1,7 @@
 import * as userActions from "./user-actions";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:5000/app";
+axios.defaults.baseURL = "https://auth-app-bd.herokuapp.com/app";
 
 const fetchUsers = user  => dispatch => {
   dispatch(userActions.fetchUserRequest());
